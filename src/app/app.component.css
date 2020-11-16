@@ -1,0 +1,31 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  margin: 0 0 0;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wallpaper-container {
+  align-self: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  max-width: auto;
+  max-height: 100%;
+}
+
+.img-box {
+  max-width: 20vw;
+  max-height: auto;
+}
